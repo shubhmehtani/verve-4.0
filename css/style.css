@@ -785,7 +785,6 @@ h1, h2, h3, h4, h5,
   line-height: 40px; }
 
 .section1{
-  background-image: url("/images/img_1.jpg");
   background-repeat: repeat-x; 
   overflow: hidden;
   background-size: 50vw 50vw;
@@ -798,18 +797,51 @@ h1, h2, h3, h4, h5,
 
 .rapid_fire{
   display: grid;
-  grid-template-rows: 1fr 4fr 1fr
+  grid-template-rows: 1fr 4fr 1fr;
+  height: 100%
 }
 
 .profile{
   background-color: white
 }
 
-.rapid_fire .img{
+.rapid_fire .img1{
   width: 100%;
-  background-image: url("/images/person_1.jpg");scroll-margin-block-end: 
+  background-image: url("/images/amita.jpg");
+  background-size: 100%;
+  background-position: center
+}
+
+.rapid_fire .img2{
+  width: 100%;
+  background-image: url("/images/madhu.jpeg");
+  background-size: 100%;
+  background-position: center 
 }
 
  .rapid_fire_content{
-     
+  display: grid;
+  grid-template-rows: 0.3fr 50fr 0.3fr 50fr 0.3fr
+}
+
+.profile_1{
+display: grid;
+grid-template-columns: 0.3fr 40fr 0.3fr
+}
+
+.profile_2{
+display: grid;
+grid-template-columns: 0.3fr 40fr 0.3fr
+}
+
+.border-left{
+width: 100%;
+background: linear-gradient(to right, #c70039, #ff5733 70%);
+display: block; 
+}
+
+.border-bottom{
+height: 100%;
+background: linear-gradient(to bottom, #c70039, #ff5733 70%);
+display: block; 
 }
