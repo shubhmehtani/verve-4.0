@@ -785,14 +785,18 @@ h1, h2, h3, h4, h5,
   line-height: 40px; }
 
 .section1{
+  background-image: url("/images/img_1.jpg");
+  background-repeat: repeat-x; 
+  overflow: hidden;
+  background-size: 50vw 50vw;
   width: 100vw;
   height: 200vh;
   display: grid;
   grid-template-columns: 3fr 1fr
+  
 }
 
 .rapid_fire{
-  background-color: rgb(226, 219, 151);
   display: grid;
   grid-template-rows: 1fr 4fr 1fr
 }
@@ -806,6 +810,6 @@ h1, h2, h3, h4, h5,
   background-image: url("/images/person_1.jpg");scroll-margin-block-end: 
 }
 
-.rapid_fire .rapid_fire_content{
-  
+ .rapid_fire_content{
+     
 }
