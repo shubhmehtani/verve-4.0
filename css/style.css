@@ -821,15 +821,10 @@ h1, h2, h3, h4, h5,
 
  .rapid_fire_content{
   display: grid;
-  grid-template-rows: 0.3fr 50fr 0.3fr 50fr 0.3fr
+  grid-template-rows: 0.3fr 120fr 0.3fr
 }
 
 .profile_1{
-display: grid;
-grid-template-columns: 0.3fr 40fr 0.3fr
-}
-
-.profile_2{
 display: grid;
 grid-template-columns: 0.3fr 40fr 0.3fr
 }
